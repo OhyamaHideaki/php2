@@ -1,6 +1,6 @@
 <?php
 
-$score = -20 ;
+$score = 0 ;
 
 
 if($score >=90 && $score <=100){
@@ -16,14 +16,14 @@ if($score >=90 && $score <=100){
     echo "D";
 }else if($score >=50 && $score <=59){
     echo "E";
-}else{
+}else {
     echo "不合格"."<br>";
-    if($score <=0){
+    if($score <0){
         echo "Invalid Input"."<br>";
-        if($score ==0){
+    }else {
             echo "Very bad";
         }
-    }
+    
 }
 
 
